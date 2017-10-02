@@ -38,7 +38,7 @@ var securityProduction = {
         "port":3306,
     },
     server:{
-        ip:"192.168.0.4",
+        ip:"139.59.18.253",
         port:8888
     },
     logger:{
@@ -58,4 +58,4 @@ var securityProduction = {
     maximumGeneratedKeys: 10
 };
 
-module.exports.ENV_CONFIG = securityDevelopment;
+module.exports.ENV_CONFIG = securityProduction;

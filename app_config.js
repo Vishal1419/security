@@ -7,11 +7,11 @@ var winston = require('winston');
 var securityDevelopment = {
     db: {
         "database": "security",
-        "host": "192.168.100.204",
+        "host": "127.0.0.1",
         "port": 27017,
     },
     server:{
-        ip:"192.168.0.4",
+        ip:"192.168.0.2",
         port:8888
     },
     logger:{
@@ -34,8 +34,8 @@ var securityDevelopment = {
 var securityProduction = {
     db: {
         "database": "security",
-        "host": "192.168.100.204",
-        "port":3306,
+        "host": "127.0.0.1",
+        "port":27017,
     },
     server:{
         ip:"139.59.18.253",

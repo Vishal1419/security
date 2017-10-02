@@ -1,0 +1,22 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Security Application for all my desktop applications",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Vishal Sherathiya",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "crypto": "^1.0.1",
+    "isvalid": "^1.6.6",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.10",
+    "random-key": "^0.3.2",
+    "restify": "^5.2.0",
+    "winston": "^2.3.1"
+  }
+}

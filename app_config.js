@@ -39,7 +39,7 @@ var securityProduction = {
     },
     server:{
         ip:"139.59.18.253",
-        port:8888
+        port:80
     },
     logger:{
         transports:[
